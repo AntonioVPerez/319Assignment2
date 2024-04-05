@@ -1,0 +1,58 @@
+.price {
+    font-size: 1.3rem;
+}
+
+.product {
+    max-width: 28vw;
+}
+
+.image {
+    max-width: 9vw;
+    align-self: center;
+    margin: 2vw;
+}
+
+.cartImage {
+    width: 6vw;
+    height: 6vw;
+    margin: auto;
+    mix-blend-mode: multiply;
+}
+
+.cartProduct {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 1vh;
+    border-radius: 3px;
+    justify-content: space-between;
+}
+
+.cartPrice {
+    font-size: 1.6rem;
+}
+
+.extra {
+    font-size: 1rem;
+}
+
+.productText {
+    align-self: center;
+    align-items: left;
+    max-width: 40vw;
+    padding: 2vw;
+}
+
+.priceInfo {
+    max-width: 8vw;
+    justify-content: right;
+    text-align: right;
+
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.left {
+    display: flex;
+    flex-direction: row;
+}
